@@ -1,12 +1,33 @@
 {
   "pages":[
-    "pages/index/index",
+    "pages/tabBar/home/home",
+    "pages/tabBar/index/index",
+    "pages/tabBar/function/function",
     "pages/logs/logs"
   ],
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#696767",
+    "selectedColor": "#546AEF",
+    "backgroundColor": "#ECEDF0",
+    "list": [
+      {
+        "text": "index",
+        "pagePath": "pages/tabBar/index/index"
+      }, {
+        "text": "function",
+        "pagePath": "pages/tabBar/function/function"  
+      },{
+        "text": "home",
+        "pagePath": "pages/tabBar/home/home"
+      }
+    ]
+  },
+  "entryPagePath": "pages/tabBar/home/home",
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "example",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
