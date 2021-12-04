@@ -5,21 +5,29 @@
     "pages/tabBar/function/function",
     "pages/logs/logs"
   ],
-  "usingComponents": {},
+  "usingComponents": {
+    "ex-button": "components/button/button"
+  },
   "tabBar": {
     "color": "#696767",
-    "selectedColor": "#546AEF",
+    "selectedColor": "#07B6B5",
     "backgroundColor": "#ECEDF0",
     "list": [
       {
         "text": "index",
-        "pagePath": "pages/tabBar/index/index"
+        "pagePath": "pages/tabBar/index/index",
+        "iconPath": "image/tabBar/index.png",
+        "selectedIconPath": "image/tabBar/index-active.png"
       }, {
         "text": "function",
-        "pagePath": "pages/tabBar/function/function"  
+        "pagePath": "pages/tabBar/function/function",
+        "iconPath": "image/tabBar/function.png",
+        "selectedIconPath": "image/tabBar/function-active.png"
       },{
         "text": "home",
-        "pagePath": "pages/tabBar/home/home"
+        "pagePath": "pages/tabBar/home/home",
+        "iconPath": "image/tabBar/me.png",
+        "selectedIconPath": "image/tabBar/me-active.png"
       }
     ]
   },
@@ -27,7 +35,7 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "example",
+    "navigationBarTitleText": "SLOW-DOWN",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
